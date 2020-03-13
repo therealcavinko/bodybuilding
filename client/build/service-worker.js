@@ -22,7 +22,7 @@ var n = new URL(t).pathname;
         return n.match(e)})},
             stripIgnoredUrlParameters = function(e,n) {
               var t = new URL(e);
-                 return t.hash = "", t.search = t.search.slice(1).split("&").map(function(e){
+                 return t.hash = "", t.search = t.search.slice(1).split("&").map(function(e) {
                     return e.split("=")}).filter(function(t){ 
                         return n.every(function(e){ 
                             return ! e.test(t[0])})}).map(function(e) { 
