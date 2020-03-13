@@ -63,10 +63,7 @@ var n = new URL(t).pathname;
                                     ! e && "navigate" === t.request.mode && isPathWhitelisted(["^(?!\\/__).*"], 
                                         t.request.url) && (n = new URL(a, self.location).toString(),
                                             e = urlsToCacheKeys.has(n)), e && t.respondWith(caches.open(cacheName).then(function(e) {
-                                                return e.match(urlsToCacheKeys.get(n)).then(function(e) { 
-                                                    if(e) return e;
-                                        
-                        throw Error ("The cached response that was expected is missing.")})})
+                                                return e.match(urlsToCacheKeys.get(n)).then(function(e))})
                         .catch(function(e) {
                             return console.warn('Couldn\'t serve response for "%s" from cache: %O',
                             t.request.url, e), fetch(t.request)}))}});
