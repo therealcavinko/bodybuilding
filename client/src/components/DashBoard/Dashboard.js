@@ -66,6 +66,7 @@ const styles = {
   }
 };
 //---------------------------------------------------------------------
+//https://v3.material-ui.com/api/table-cell/ learn how to use tablecell to customize my page. Learned to use props and components
 class Dashboard extends React.Component {
   render() {
     const { classes } = this.props;
@@ -73,6 +74,7 @@ class Dashboard extends React.Component {
       <div>
         <Card className = {classes.cardUser}>
           <CardContent>
+  
             <Typography className = {classes.root} variant = "display3" align = "center">
               DashBoard
             </Typography>
@@ -116,7 +118,7 @@ class Dashboard extends React.Component {
     );
   }
 }
-
+// https://material-ui.com/components/typography/ typography used to make the title of the page pop out
 Dashboard.propTypes = {
   classes: PropTypes.object.isRequired
 };
