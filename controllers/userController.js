@@ -36,7 +36,7 @@ module.exports = {
         .findOneAndUpdate({ _id: req.params.id }, req.body)
         .then(dbModel => res.json(dbModel))
         .catch(err => res.status(404).json(err));
-    },
+    }
     
     removeUser: function(req, res) {
         db.User
@@ -44,5 +44,6 @@ module.exports = {
         .then(dbModel => dbModel.remove())
         .then(dbModel => res.json(dbModel))
         .catch(err => res.status(404).json(err));
-    },
+    }
+    }
 }
