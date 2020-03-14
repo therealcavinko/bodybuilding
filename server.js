@@ -27,6 +27,3 @@ mongoose.connect(
 
 app.use(morgan('dev'));
 
-app.listen(PORT, function() {
-  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
-});
