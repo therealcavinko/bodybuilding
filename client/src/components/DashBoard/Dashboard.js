@@ -18,18 +18,16 @@ const styles = {
     marginLeft: "5%",
     marginRight: "5%",
     marginTop:  "5%",
-    marginBottom: "25%"
+    marginBottom: "20%"
   },
   media: {
     height: 0,
-    paddingTop: '56.25%' // 16:9
+    paddingTop: '50%' 
   },
   card: {
     marginTop: 11,
-    display: 'flex'
   },
     content: {
-    flex: '1 0 auto'
   },
   button: {},
   input: {
@@ -39,7 +37,6 @@ const styles = {
     padding: 14
   },
   root: {
-    flexGrow: 1,
     marginBottom: "5%"
   },
   gridContainer: {
