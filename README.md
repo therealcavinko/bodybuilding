@@ -11,10 +11,10 @@ How to use:
 Just create an account, login and get started!
 
 Used:
-JavaScript
-React
-MongoDB
-Heroku
-Express
-Node
+JavaScript,
+React,
+MongoDB,
+Heroku,
+Express,
+Node,
 UI
