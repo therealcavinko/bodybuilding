@@ -1,7 +1,4 @@
-.linkStyle{
-	a:link {
-	    text-decoration: none,
-	}
+.linkStyle 
 
 	a:visited {
 	    text-decoration: none,
@@ -10,4 +7,3 @@
 	a:active {
 	    color: none;
 	}
-}
